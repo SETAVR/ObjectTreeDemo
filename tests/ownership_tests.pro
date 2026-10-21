@@ -1,0 +1,9 @@
+QT += widgets testlib
+CONFIG += c++17 console testcase
+CONFIG -= app_bundle
+TARGET = ownership_tests
+TEMPLATE = app
+INCLUDEPATH += ..
+SOURCES += ownership_tests.cpp ../mainwindow.cpp
+HEADERS += ../mainwindow.h ../widgets.h
+msvc:QMAKE_CXXFLAGS += /utf-8
