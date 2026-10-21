@@ -1,0 +1,234 @@
+********* Start testing of OwnershipTests *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 10
+PASS   : OwnershipTests::initTestCase()
+QDEBUG : OwnershipTests::initialTree() [CREATE] MainWindow
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::initialTree() [CREATE] LogButton "treeButton"
+QWARN  : OwnershipTests::initialTree() This plugin does not support propagateSizeHints()
+QDEBUG : OwnershipTests::initialTree() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "movable"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::initialTree() [DESTROY] LogButton "treeButton"
+PASS   : OwnershipTests::initialTree()
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] MainWindow
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [STATUS] Панель и оба её дочерних виджета будут удалены автоматически.
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DELETE_LATER] OwnerPanel
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "movable"
+QWARN  : OwnershipTests::deletingOwnerDeletesChildren() This plugin does not support propagateSizeHints()
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::deletingOwnerDeletesChildren() [DESTROY] LogButton "treeButton"
+PASS   : OwnershipTests::deletingOwnerDeletesChildren()
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] MainWindow
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [CREATE] LogButton "treeButton"
+QWARN  : OwnershipTests::movedChildSurvivesOldOwner() This plugin does not support propagateSizeHints()
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [STATUS] Новый владелец — главное окно. Удаление панели не удалит этот виджет.
+QWARN  : OwnershipTests::movedChildSurvivesOldOwner() This plugin does not support propagateSizeHints()
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [SET_PARENT] "MainWindow"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [STATUS] Панель будет удалена; перемещённый виджет останется в окне.
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DELETE_LATER] OwnerPanel
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "staticButton"
+QWARN  : OwnershipTests::movedChildSurvivesOldOwner() This plugin does not support propagateSizeHints()
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "treeButton"
+QDEBUG : OwnershipTests::movedChildSurvivesOldOwner() [DESTROY] LogButton "movable"
+PASS   : OwnershipTests::movedChildSurvivesOldOwner()
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] MainWindow
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [STATUS] Новый владелец — главное окно. Удаление панели не удалит этот виджет.
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [SET_PARENT] "MainWindow"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [STATUS] Владелец снова панель. Виджет будет удалён вместе с ней.
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [SET_PARENT] "OwnerPanel"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [STATUS] Панель и оба её дочерних виджета будут удалены автоматически.
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DELETE_LATER] OwnerPanel
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "movable"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::returnToPanelRestoresOwnership() [DESTROY] LogButton "treeButton"
+PASS   : OwnershipTests::returnToPanelRestoresOwnership()
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] MainWindow
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [STATUS] Панель и оба её дочерних виджета будут удалены автоматически.
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DELETE_LATER] OwnerPanel
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [STATUS] Панель уже удалена или ожидает удаления.
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [STATUS] Перемещение невозможно: панель удалена или ожидает удаления.
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "movable"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [STATUS] Панель уже удалена или ожидает удаления.
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [STATUS] Перемещение невозможно: панель удалена или ожидает удаления.
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::repeatedActionsAreSafe() [DESTROY] LogButton "treeButton"
+PASS   : OwnershipTests::repeatedActionsAreSafe()
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] MainWindow
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogPanel "TempOwner"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogLabel "attachedChild"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [CREATE] LogLabel "detachedChild"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DEMO] Children before detach: 2
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DEMO] Children after detach: 1
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [STATUS] Демо: дочерняя метка удаляется с TempOwner; отвязанная переживает его и удаляется отдельно.
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogPanel "TempOwner"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogLabel "attachedChild"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DEMO] Detached survived owner: true
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogLabel "detachedChild"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "movable"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::detachedChildHasSeparateLifetime() [DESTROY] LogButton "treeButton"
+PASS   : OwnershipTests::detachedChildHasSeparateLifetime()
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] MainWindow
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogPanel "TempOwner"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogLabel "attachedChild"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [CREATE] LogLabel "detachedChild"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DEMO] Children before detach: 2
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DEMO] Children after detach: 1
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [STATUS] Демо: дочерняя метка удаляется с TempOwner; отвязанная переживает его и удаляется отдельно.
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogLabel "detachedChild"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "movable"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogButton "treeButton"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogPanel "TempOwner"
+QDEBUG : OwnershipTests::shutdownCleansDetachedChild() [DESTROY] LogLabel "attachedChild"
+PASS   : OwnershipTests::shutdownCleansDetachedChild()
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] MainWindow
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogLabel "title"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogLineEdit "input"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogLabel "status"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "staticButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "movable"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "moveButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "deleteButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "detachButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [CREATE] LogButton "treeButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [STATUS] Новый владелец — главное окно. Удаление панели не удалит этот виджет.
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [SET_PARENT] "MainWindow"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] MainWindow
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogLabel "title"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogLineEdit "input"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogLabel "status"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogPanel "OwnerPanel"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "staticButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "moveButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "deleteButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "detachButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "treeButton"
+QDEBUG : OwnershipTests::deletingWindowDeletesMovedChild() [DESTROY] LogButton "movable"
+PASS   : OwnershipTests::deletingWindowDeletesMovedChild()
+PASS   : OwnershipTests::cleanupTestCase()
+Totals: 10 passed, 0 failed, 0 skipped, 0 blacklisted, 114ms
+********* Finished testing of OwnershipTests *********
